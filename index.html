@@ -5,6 +5,7 @@
 <title>ULARTANGGA</title> 
 <link rel="stylesheet" href="Company Profile/font-awesome/css/font-awesome.min.css">
 <script src="jquery-3.6.0.js"></script>
+<script src="https://kit.fontawesome.com/54a661661e.js" crossorigin="anonymous"></script>
 <style>
     body{
         height: 100%;
@@ -34,9 +35,11 @@
     }
     #p1 {
         font-size: 40px;
+        left: 0;
         top: 75%;
     }
     #p2 {
+        left:0;
         font-size: 40px;
         top: 86%;
     }
@@ -73,8 +76,8 @@
     
     <div class="container">
         <img src="ULARTANGGA.jpeg">
-        <p id="p1">P1</p>
-        <p id="p2">P2</p>
+        <p id="p1" class="fa fa-dog"></p>
+        <p id="p2" class="fa fa-cat"></p>
     </div>
     <div id="dice">
         <h2 id="turn">PLAYER 1 TURN</h2>
@@ -85,6 +88,8 @@
         <h3 id="player1">PLAYER 1 WIN</h3>
         <h3 id="player2">PLAYER 2 WIN</h3>
         <button id="reset">RESET</button>
+        <br><p class="fa fa-dog">=PLAYER 1</p>
+        <br><p class="fa fa-cat">=PLAYER 2</p>
     </div>
 <script>
     var gameover = false;
